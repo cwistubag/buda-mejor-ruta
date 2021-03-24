@@ -1,0 +1,345 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+	  "description": {
+		"type": "string"
+	  },
+	  "version": {
+		"type": "string"
+	  },
+	  "data": {
+		"type": "array",
+		"items": [
+		  {
+			"type": "object",
+			"properties": {
+			  "id": {
+				"type": "integer"
+			  },
+			  "name": {
+				"type": "string"
+			  },
+			  "type": {
+				"type": "string"
+			  },
+			  "contiguous": {
+				"type": "array",
+				"items": [
+				  {
+					"type": "object",
+					"properties": {
+					  "id": {
+						"type": "integer"
+					  }
+					},
+					"required": [
+					  "id"
+					]
+				  }
+				]
+			  }
+			},
+			"required": [
+			  "id",
+			  "name",
+			  "type",
+			  "contiguous"
+			]
+		  },
+		  {
+			"type": "object",
+			"properties": {
+			  "id": {
+				"type": "integer"
+			  },
+			  "name": {
+				"type": "string"
+			  },
+			  "type": {
+				"type": "string"
+			  },
+			  "contiguous": {
+				"type": "array",
+				"items": [
+				  {
+					"type": "object",
+					"properties": {
+					  "id": {
+						"type": "integer"
+					  }
+					},
+					"required": [
+					  "id"
+					]
+				  }
+				]
+			  }
+			},
+			"required": [
+			  "id",
+			  "name",
+			  "type",
+			  "contiguous"
+			]
+		  },
+		  {
+			"type": "object",
+			"properties": {
+			  "id": {
+				"type": "integer"
+			  },
+			  "name": {
+				"type": "string"
+			  },
+			  "type": {
+				"type": "string"
+			  },
+			  "contiguous": {
+				"type": "array",
+				"items": [
+				  {
+					"type": "object",
+					"properties": {
+					  "id": {
+						"type": "integer"
+					  }
+					},
+					"required": [
+					  "id"
+					]
+				  },
+				  {
+					"type": "object",
+					"properties": {
+					  "id": {
+						"type": "integer"
+					  }
+					},
+					"required": [
+					  "id"
+					]
+				  }
+				]
+			  }
+			},
+			"required": [
+			  "id",
+			  "name",
+			  "type",
+			  "contiguous"
+			]
+		  },
+		  {
+			"type": "object",
+			"properties": {
+			  "id": {
+				"type": "integer"
+			  },
+			  "name": {
+				"type": "string"
+			  },
+			  "type": {
+				"type": "string"
+			  },
+			  "contiguous": {
+				"type": "array",
+				"items": [
+				  {
+					"type": "object",
+					"properties": {
+					  "id": {
+						"type": "integer"
+					  }
+					},
+					"required": [
+					  "id"
+					]
+				  }
+				]
+			  }
+			},
+			"required": [
+			  "id",
+			  "name",
+			  "type",
+			  "contiguous"
+			]
+		  },
+		  {
+			"type": "object",
+			"properties": {
+			  "id": {
+				"type": "integer"
+			  },
+			  "name": {
+				"type": "string"
+			  },
+			  "type": {
+				"type": "string"
+			  },
+			  "contiguous": {
+				"type": "array",
+				"items": [
+				  {
+					"type": "object",
+					"properties": {
+					  "id": {
+						"type": "integer"
+					  }
+					},
+					"required": [
+					  "id"
+					]
+				  }
+				]
+			  }
+			},
+			"required": [
+			  "id",
+			  "name",
+			  "type",
+			  "contiguous"
+			]
+		  },
+		  {
+			"type": "object",
+			"properties": {
+			  "id": {
+				"type": "integer"
+			  },
+			  "name": {
+				"type": "string"
+			  },
+			  "type": {
+				"type": "string"
+			  },
+			  "contiguous": {
+				"type": "array",
+				"items": {}
+			  }
+			},
+			"required": [
+			  "id",
+			  "name",
+			  "type",
+			  "contiguous"
+			]
+		  },
+		  {
+			"type": "object",
+			"properties": {
+			  "id": {
+				"type": "integer"
+			  },
+			  "name": {
+				"type": "string"
+			  },
+			  "type": {
+				"type": "string"
+			  },
+			  "contiguous": {
+				"type": "array",
+				"items": [
+				  {
+					"type": "object",
+					"properties": {
+					  "id": {
+						"type": "integer"
+					  }
+					},
+					"required": [
+					  "id"
+					]
+				  }
+				]
+			  }
+			},
+			"required": [
+			  "id",
+			  "name",
+			  "type",
+			  "contiguous"
+			]
+		  },
+		  {
+			"type": "object",
+			"properties": {
+			  "id": {
+				"type": "integer"
+			  },
+			  "name": {
+				"type": "string"
+			  },
+			  "type": {
+				"type": "string"
+			  },
+			  "contiguous": {
+				"type": "array",
+				"items": [
+				  {
+					"type": "object",
+					"properties": {
+					  "id": {
+						"type": "integer"
+					  }
+					},
+					"required": [
+					  "id"
+					]
+				  }
+				]
+			  }
+			},
+			"required": [
+			  "id",
+			  "name",
+			  "type",
+			  "contiguous"
+			]
+		  },
+		  {
+			"type": "object",
+			"properties": {
+			  "id": {
+				"type": "integer"
+			  },
+			  "name": {
+				"type": "string"
+			  },
+			  "type": {
+				"type": "string"
+			  },
+			  "contiguous": {
+				"type": "array",
+				"items": [
+				  {
+					"type": "object",
+					"properties": {
+					  "id": {
+						"type": "integer"
+					  }
+					},
+					"required": [
+					  "id"
+					]
+				  }
+				]
+			  }
+			},
+			"required": [
+			  "id",
+			  "name",
+			  "type",
+			  "contiguous"
+			]
+		  }
+		]
+	  }
+	},
+	"required": [
+	  "description",
+	  "version",
+	  "data"
+	]
+  }

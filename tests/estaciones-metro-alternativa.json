@@ -1,0 +1,108 @@
+{
+    "description": "Configuración de estaciones de metro",
+    "version": "1.0",
+    "data": [
+        {
+            "id": 1,
+            "name": "A",
+            "type": "normal",
+            "contiguous": [
+                {
+                    "id": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "B",
+            "type": "normal",
+            "contiguous": [
+                {
+                    "id": 3
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "C",
+            "type": "normal",
+            "contiguous": [
+                {
+                    "id": 4
+                },
+                {
+                    "id": 7
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "D",
+            "type": "normal",
+            "contiguous": [
+                {
+                    "id": 5
+                },
+                {
+                    "id": 10
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "E",
+            "type": "normal",
+            "contiguous": [
+                {
+                    "id": 6
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "F",
+            "type": "normal",
+            "contiguous": []
+        },
+        {
+            "id": 7,
+            "name": "G",
+            "type": "verde",
+            "contiguous": [
+                {
+                    "id": 8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "H",
+            "type": "rojo",
+            "contiguous": [
+                {
+                    "id": 9
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "I",
+            "type": "verde",
+            "contiguous": [
+                {
+                    "id": 6
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "X",
+            "type": "normal",
+            "contiguous": [
+                {
+                    "id": 6
+                }
+            ]
+        }
+    ]
+}
